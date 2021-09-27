@@ -6,6 +6,5 @@ public class ManualTester implements Tester {
     @Override
     public void testCode() {
         System.out.println("manual getTester");
-        System.out.println("manual getTester");
     }
 }

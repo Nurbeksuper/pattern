@@ -18,6 +18,7 @@ public class DeveloperFactory {
                 case "c++":
                     System.out.println("C++++");
                     developer = new CppDeveloper();
+                    break;
             }
             developers.put(speciality, developer);
         }
